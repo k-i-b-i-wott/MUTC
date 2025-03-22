@@ -11,18 +11,18 @@ export const About = () => {
 function AboutSection() {
   return (  
     <div className="about-section">
-       <div>
+       
         <h3>About us</h3>
-       </div>
+       
        <div className='intro'>
-        <div>
+        <div className='who-we-are'>
             <h3>Who we are</h3>
             <p>
                 Murang'a University Tech Club (MUTC) is a dynamic student-led organization dedicated to advancing technology, innovation and programming skills among students.
                 We provide an inclusive space for learners,developers, designers and tech enthusisats to collaborate learn and grow together.
             </p>
         </div>
-        <div>
+        <div className='who-we-are'>
             <h3>What we do</h3>
             <p>
                 MUTC fosters a supportive environment where students can learn, share, and connect with like-minded individuals.
@@ -42,14 +42,14 @@ function AboutSection() {
         </div>
          
        </div>
-       <div>
-        <div>
+       <div className='intro'>
+        <div className='who-we-are'>
             <h3>Our Mission</h3>
             <p>
-                To empower studenrts with knowledge and skills needed to excel in the ever-evolving world of technology through hands-on learning, mentorship,ollaboration and innovation.
+                To empower students with knowledge and skills needed to excel in the ever-evolving world of technology through hands-on learning, mentorship,collaboration and innovation.
             </p>
         </div>
-        <div>
+        <div className='who-we-are'>
             <h3>Our Core Values</h3>
             <ul>
                 <li>
@@ -58,7 +58,7 @@ function AboutSection() {
                 <li>
                     <strong>Innovation</strong> We encourage creative problem-solving and out-of-the-box thinking. 
                 </li>   
-                <li>Excellence</li> We strive for the highest standards in all our projects and initiatives.
+                <li><strong>Excellence</strong>We strive for the highest standards in all our projects and initiatives. </li> 
 
                 <li>
                   < strong>Inclusivity</strong>  We welcome students of all skill levels, from beginners to advanced tech enthusiasts.
