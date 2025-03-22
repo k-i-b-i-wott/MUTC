@@ -1,0 +1,15 @@
+.about-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background-image: url('../../assets/download.jpeg');
+    background-size: cover;
+    background-position: center;
+   padding: 2rem;
+   margin-top: 2rem;
+   border-radius: 2rem;
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+}
