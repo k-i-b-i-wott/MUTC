@@ -7,7 +7,7 @@ header{
 
 .header-nav-details{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100vw;
     padding: 2rem;
@@ -20,12 +20,22 @@ header{
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
+    font-size: 3rem;
+    color: var(--color-white);
 
+}
+.header-nav NavLink{
+    list-style: none;
+    color: var(--color-white);
 }
 .header-nav{
     display: flex;
     justify-content: space-around;
     gap: 3rem;
+}
+.header-nav-link{
+    list-style: none;
+    color: var(--color-white);
 }
 .header-nav-details button{
     background-color: var(--color-secondary);
@@ -36,10 +46,15 @@ header{
     
 }
 
+
 @media screen and (max-width: 48em) {
     .header-nav-details{
         gap: 2rem;
         padding: 1rem 1rem;
+    }
+    .header-nav ul{
+        gap: 1rem;
+        font-size: 2rem;
     }
     
 }
@@ -48,6 +63,11 @@ header{
     .header-nav-details{
         gap: .5rem;
         padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem 2rem;
+        font-size: 2.5rem;
     }
     
 }

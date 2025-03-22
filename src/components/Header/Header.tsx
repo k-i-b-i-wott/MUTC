@@ -1,7 +1,14 @@
 import Logo from "../Logo/Logo"
 
+import  {NavLink} from 'react-router-dom'
+
+
 import './Header.css'
+
+
+
 const Header = () => {
+  
   return (
     <header>
       <HeaderNavDetails />
@@ -12,6 +19,7 @@ const Header = () => {
 export default Header
 
 function HeaderNavDetails() {
+
   return (
     <div className="header-nav-details">
       <Logo />
@@ -24,12 +32,22 @@ function HeaderNav() {
   return (
    <nav className="header-nav">
     <ul>
-      <li>Home</li>
-      <li>Leadership</li>
-      <li>Tracks</li>
-      <li>Events</li>
-    </ul>
-    
+     <NavLinks to="/" linkName="Home" />
+     <NavLinks to="/about" linkName="About" />
+     <NavLinks to="/events" linkName="Events"/>
+     <NavLinks to="/team" linkName="Team" />
+     <NavLinks to="/contact" linkName="Contact" />
+    </ul>    
    </nav>
+  )
+}
+
+
+function NavLinks({to, linkName}: {to: string, linkName: string}) {
+
+  return (
+    <li className="header-nav-link">
+      <NavLink to={to}>{linkName}</NavLink>
+    </li>
   )
 }
