@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Home from './pages/Home/Home'
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Header />
       <Home />
+      <Footer />
     </div>
   )
 }

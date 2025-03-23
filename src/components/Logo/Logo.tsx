@@ -3,7 +3,7 @@ import './Logo.css'
 const Logo = () => {
   return (
     <div className="logo">
-        <div className="image-wrapper">
+        <div className="logo-wrapper">
             <img src={LogoImg} alt="logo" />            
         </div>
         <h4>Murang'a University Tech Club</h4>     
