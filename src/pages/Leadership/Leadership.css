@@ -1,0 +1,32 @@
+.leadership-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.team-lead{
+    display: flex;
+    gap: 2rem;
+    max-width: 40vw;
+    border: 2px solid red;
+    max-height: max-content;
+}
+.lead-image{
+    
+    overflow: hidden;
+    border: 2px solid red;
+    
+}
+/* .lead-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+} */
+.desc{
+    display: block;
+
+    align-items: center;
+    justify-content: center;
+}

@@ -32,8 +32,8 @@ function HeaderNav() {
   return (
    <nav className="header-nav">
     <ul>
-     <NavLinks to="/" linkName="Home" />
-     <NavLinks to="/about" linkName="About" />
+     <NavLinks to={"/"} linkName={"Home" }/>
+     <NavLinks to={"/leadership"} linkName={"Leadership"} />
      <NavLinks to="/events" linkName="Events"/>
      <NavLinks to="/team" linkName="Team" />
      <NavLinks to="/contact" linkName="Contact" />
