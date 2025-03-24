@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
 
 }
 
@@ -19,7 +20,8 @@
 
 .leadership-section{
     max-width: 60rem;
-    max-height: 60rem;
+    min-height: 70rem;
+    
    
     color: var(--color-white);
     position: relative;
@@ -31,7 +33,7 @@
 .team-lead-image{
     max-width: 60rem;
     max-height: 30rem;
-   
+   border-radius: 1rem;
     overflow: hidden;
 }
 .team-lead-image img{
@@ -42,11 +44,11 @@
 
 .desc h2{
     position: absolute;
-    top: 10%;
-    right: 0;
+    top: 8%;
+    right: 0%;
     transform: translateX(-50%);
     position: absolute;
-    color: var(--color-white);
+    color: #FF5733;
     font-family: cursive;
     
 }
@@ -54,10 +56,10 @@
     content: "";    
     display: block;
     width: 150%; 
-    height: .2rem;
+    height: .4rem;
     background-color: var(--color-white);
     position: absolute;
-    left: -50%; 
+    right: -50%; 
     bottom: -2px;
 }
 .desc{
@@ -74,12 +76,40 @@
     font-family: cursive;
     font-size: 3rem;
 }
+.desc h4{
+    font-style: italic;
+    color: var(--color-white);
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 3rem;
+    text-align: center;
+}
 
 .social-icons{
+    align-items: center;
+    justify-content: center;
     display: flex;
     gap: 2rem;
     color: #FF5733;
     font-size: 4rem;
+}
+.social-icons span:hover{
+    color: #562cba;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.head h2{
+    font-size: 2.5rem;
+    font-family: cursive;
+}
+.head p{
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: #666;
 }
 
 @media screen and (max-width:37.5em) {
@@ -87,4 +117,12 @@
         padding: 2rem;
     }
     
+    .desc h2{
+        font-size: 2rem;
+    }
+    .desc h2::after{
+        width: 150%; 
+        transform: translateX(-50%);
+        right: -70%;
+        }
 }
