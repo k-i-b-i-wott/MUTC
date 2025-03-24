@@ -1,6 +1,6 @@
 import './Leadership.css'
 import { ReactNode } from 'react';
-import image from '../../assets/alice.jpeg'
+
 
 import { FaFacebookF,FaLinkedinIn,FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
