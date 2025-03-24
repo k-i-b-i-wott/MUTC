@@ -17,7 +17,8 @@ function LeadershipTeam() {
         <h5>Meet the team in charge</h5>
       </div>
       <div className="team-lead">    
-        <div className="lead-image">          {/* <img src={image} alt="Image" />   */}
+        <div className="lead-image">  
+                  <img src={image} alt="Image" />  
         </div>      
         <div className="desc">
           <h3>Name</h3>  
