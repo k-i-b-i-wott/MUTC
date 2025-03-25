@@ -3,15 +3,19 @@
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    max-width: 45rem;
-    border: 2px solid red;
+    max-width: 70rem;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    border-radius: 1rem;
+    padding: 0 2rem;
 }
 
 .trackImg{
-    width: 50vw;
-    height: 20rem;
-    background-color: red;
+    width: 50%;
+    height: 100%;
+    
     overflow: hidden;
+    border-radius: 2rem;
 }
 .trackImg img{
     width: 100%;
@@ -25,6 +29,7 @@
     align-items: center;
     justify-content: center;    
     padding-bottom: 2rem;
+    padding-top: 3rem;
 }
 .items{
     /* display: grid;
@@ -47,7 +52,7 @@
     background-color: var(--color-secondary);
     width: 10rem;
     height: 3rem;
-    border-radius: .2rem;
+    border-radius: .4rem;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -57,9 +62,26 @@
     font-size: 2rem;
     text-align: center;
 }
+.track-details h2{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--color-secondary);
+}
+.track-details p{
+    font-size: 1.5rem;
+    
+}
+
 @media screen and(max-width:56.25em) {
     .track-card{
         width: 70vw;
+    }
+    
+}
+
+@media screen and(max-width:43.75em) {
+    .track-card{
+        width: 100vw;
     }
     
 }
