@@ -140,12 +140,11 @@ const Tracks = () => {
       </div>
       <div className="register">
         <h3>Register For your Suitable Track in the form below</h3>
-
-        <form action="">
+        <form >
           <input type="text" placeholder='FullName'/>
           <input type="email" placeholder='Email Address'/>
           <input type="text" placeholder='Current Course of Study'/>
-          <input type="number" placeholder='Year of Study'/>
+          <input type="number" placeholder='Year of Study' min={1} max={6}/>
           <select name="" id="">
             <option value="">Select Track</option>
             <option value="Front-end Development">Front-end Development</option>

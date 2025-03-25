@@ -1,0 +1,89 @@
+.events-section{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+        background-color:  var(--color-white);
+        margin-top: 2rem;
+        border-radius: 2rem;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        gap: 2rem;
+    
+}
+
+.events-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.events-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: left;
+    justify-content: center;
+    width: 70rem !important;
+    width: 100% !important;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    
+    
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: left;
+    justify-content: left;
+    
+    padding: 2rem 1rem;
+}
+.titleIcon{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: left;
+    justify-content: left;
+    
+    font-size: 5rem;
+}
+.titleDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: left;
+    justify-content: left;    
+}
+.titleDesc h2{
+    font-size: 2.5rem;
+}
+.titleDesc h5{
+    font-size: 2rem;
+    font-style: italic;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: left;
+    
+}
+.time h4{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.time h5{
+    font-size: 2rem;
+    font-style: italic;
+    justify-content: center;
+}
