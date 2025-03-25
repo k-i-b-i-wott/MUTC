@@ -5,6 +5,7 @@ import Header from './components/Header/Header'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import Leadership from './pages/Leadership/Leadership'
+import Tracks from './pages/Tracks/Tracks'
 const App = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/leadership' element={<Leadership />} />
+        <Route path='/tracks' element={<Tracks/>} />
       </Routes>
       
       <Footer />

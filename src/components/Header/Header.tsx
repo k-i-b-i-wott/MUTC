@@ -34,7 +34,7 @@ function HeaderNav() {
     <ul>
      <NavLinks to={"/"} linkName={"Home" }/>
      <NavLinks to={"/leadership"} linkName={"Leadership"} />
-     <NavLinks to="/events" linkName="Events"/>
+     <NavLinks to="/tracks" linkName="Tracks"/>
      <NavLinks to="/team" linkName="Team" />
      <NavLinks to="/contact" linkName="Contact" />
     </ul>    
