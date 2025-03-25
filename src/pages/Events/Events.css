@@ -19,7 +19,12 @@
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    -webkit-box-shadow: -11px 6px 5px -5px rgba(0,0,0,0.33);
+    -moz-box-shadow: -11px 6px 5px -5px rgba(0,0,0,0.33);
+    box-shadow: -11px 6px 5px -5px rgba(0,0,0,0.33);
     
 }
 
@@ -29,8 +34,8 @@
     gap: 1rem;
     align-items: left;
     justify-content: center;
-    width: 70rem !important;
-    width: 100% !important;
+    max-width: 50rem ;
+    
     color: var(--color-white);
     background-color: var(--color-black);
     border-radius: 1rem;
@@ -92,21 +97,81 @@
     background-color: var(--color-white);
     display: flex;
     flex-direction: column;
-    color: var(--color-primary);
+    
     gap: 2rem;
     align-items: center;
     justify-content: center;
     padding: 2rem;
     border-radius: 2rem;
     margin-top: 2rem;
+    -webkit-box-shadow: -11px 6px 5px -5px rgba(0,0,0,0.33);
+        -moz-box-shadow: -11px 6px 5px -5px rgba(0,0,0,0.33);
+        box-shadow: -11px 6px 5px -5px rgba(0,0,0,0.33);
 }
-.announcement ul li {
+.announcement h2{
+    color: var(--color-primary);
+    font-size: 3rem;
+    text-align: center;
+}
+.announcement ul li{
     display: flex;
     flex-direction: column;
-    list-style: square;
+    list-style-type: decimal !important;
     gap: 2rem;
     align-items: center;
     justify-content: center;
     list-style: none;
     color: var(--color-primary);
 }
+
+@media screen and (max-width:56.25em) {
+    .events-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .events-card{
+       max-width: 40rem !important;
+    }
+    .titleDesc h2{
+        font-size: 2rem;
+    }
+    .titleDesc h5{
+        font-size: 1.5rem;
+    }
+    .time h4{
+        font-size: 2rem;
+    }
+    .time h5{
+        font-size: 1.5rem;
+    }
+}
+ @media screen and (max-width:43.75em) {
+    .events-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .events-card{
+      max-width: 35rem !important;
+    }
+    .titleDesc h2{
+        font-size: 1.5rem;
+    }
+    .titleDesc h5{
+        font-size: 1.5rem;
+    }
+    .time h4{
+        font-size: 2rem;
+    }
+    .time h5{
+        font-size: 1.5rem;
+    }
+    
+ }
+ @media screen and (max-width:31.25em) {
+    .events-card{
+       max-width: 30rem !important;
+    }
+    
+ }

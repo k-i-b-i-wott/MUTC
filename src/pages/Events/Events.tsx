@@ -81,9 +81,9 @@ const Events = () => {
     <div className='events-section'>
         <h2>MUTC Weekly Activities</h2>
         <p>Empowering Tech Learning, One Workshop at a Time</p>
-        <div className="events-container">
-            {eventDetails.map((event, index) => (
-                <div key={index} className="events-card">
+        <div  className="events-container">
+            {eventDetails.map((event, index) => (                
+            <div key={index} className="events-card">
                 <div className='title'>
                     <div className="titleIcon">
                           {event.nameIcon}
@@ -105,11 +105,12 @@ const Events = () => {
                 </div>
                 </div>
                 
-            ))}         
-        </div>   
-            <div className="announcement">
-                <h3>Important Information</h3>
                 
+            ))}     
+            </div>     
+          
+            <div className="announcement">
+                <h3>Important Information</h3>                
                 <ul>
                     <li>All sessions are held in Computer Lab F04</li>
                     <li>Bring your laptop and necessary materials</li>
