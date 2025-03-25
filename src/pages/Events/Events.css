@@ -87,3 +87,26 @@
     font-style: italic;
     justify-content: center;
 }
+
+.announcement{
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    color: var(--color-primary);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+.announcement ul li {
+    display: flex;
+    flex-direction: column;
+    list-style: square;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: var(--color-primary);
+}

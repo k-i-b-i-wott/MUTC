@@ -105,9 +105,18 @@ const Events = () => {
                 </div>
                 </div>
                 
-            ))}           
-        
-        </div>      
+            ))}         
+        </div>   
+            <div className="announcement">
+                <h3>Important Information</h3>
+                
+                <ul>
+                    <li>All sessions are held in Computer Lab F04</li>
+                    <li>Bring your laptop and necessary materials</li>
+                    <li>Arrive 10-15 minutes early to set up</li>
+                    <li>Check for any last-minute schedule updates</li>
+                </ul>
+            </div>
     </div>
   )
 }
