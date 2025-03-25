@@ -41,7 +41,7 @@
 .title{
     display: flex;
     flex-direction: row;
-    gap: .5rem;
+    gap: 2rem;
     align-items: left;
     justify-content: left;
     
