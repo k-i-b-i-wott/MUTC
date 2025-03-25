@@ -1,9 +1,19 @@
+.items-wrap{
+    background-color:  rgb(84, 82, 82);
+}
+
+.items-wrap h1{
+    color: var(--color-secondary);
+    font-size: 2.5rem;
+}
+
+
 .track-card{
     display: flex;
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    max-width: 70rem;
+    max-width: 60rem;
     color: var(--color-white);
     background-color: var(--color-black);
     border-radius: 1rem;
@@ -49,7 +59,7 @@
     padding: 1rem .5rem;
 }
 .apply button{
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     width: 10rem;
     height: 3rem;
     border-radius: .4rem;
@@ -69,6 +79,26 @@
 }
 .track-details p{
     font-size: 1.5rem;
+    
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.register h3{
+    color: var(--color-secondary);
+}
+.register form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   width: 50rem ;
+    padding: 2rem;
+    background-color: var(--color-white);
     
 }
 

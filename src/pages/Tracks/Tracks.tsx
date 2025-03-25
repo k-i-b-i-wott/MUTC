@@ -129,12 +129,35 @@ const Tracks = () => {
               <button><a href="#">Enroll</a></button>
             </div>
           </div>
+
+          
       
           </div>
 
           ))
         }
       
+      </div>
+      <div className="register">
+        <h3>Register For your Suitable Track in the form below</h3>
+
+        <form action="">
+          <input type="text" placeholder='FullName'/>
+          <input type="email" placeholder='Email Address'/>
+          <input type="text" placeholder='Current Course of Study'/>
+          <input type="number" placeholder='Year of Study'/>
+          <select name="" id="">
+            <option value="">Select Track</option>
+            <option value="Front-end Development">Front-end Development</option>
+            <option value="Back-end Development">Back-end Development</option>
+            <option value="Cloud Engineering Track">Cloud Engineering Track</option>
+            <option value="CyberSecurity">CyberSecurity</option>
+            <option value="UI/UX Design Track">UI/UX Design Track</option>
+            <option value="Mobile Apps Development Track">Mobile Apps Development Track</option>
+            <option value="Power Platform Track">Power Platform Track</option>
+          </select>
+          <button>Submit</button>
+        </form>
       </div>
     </div>
   )
