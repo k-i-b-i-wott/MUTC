@@ -2,17 +2,17 @@ import { FcGlobe } from "react-icons/fc";
 import { CiClock1 } from "react-icons/ci";
 import './Events.css'
 
-interface events {
-    nameIcon: string
-    name: string
-    day: string
-    time: string
-    timeIcon: string
-    location: string
-    instructor: string
-    classname: string
+// interface events {
+//     nameIcon: string
+//     name: string
+//     day: string
+//     time: string
+//     timeIcon: string
+//     location: string
+//     instructor: string
+//     classname: string
     
-}
+// }
 
 
 const Events = () => {
