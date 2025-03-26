@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
-import { FcGlobe } from "react-icons/fc";
-import { CiClock1 } from "react-icons/ci";
+
+import { CiClock1,CiGlobe } from "react-icons/ci";
 import { MdSecurity,MdPhoneIphone} from "react-icons/md";
 import { IoCodeDownload } from "react-icons/io5";
 import { TbCloudCog } from "react-icons/tb";
@@ -44,7 +44,7 @@ const Events = () => {
             classname:"UI"
         },
         {
-            nameIcon: [<FcGlobe />],
+            nameIcon: [<CiGlobe />],
             name: "Web Development",
             day: "Every Wednesday",
             time:"6:00 PM - 9:00 PM",

@@ -124,11 +124,11 @@
     color: var(--color-black);
 }
 .cyber {
-    background-color: red;
+    background-color: rgb(225, 89, 89);
   }
   
   .UI {
-    background-color:blue; 
+    background-color:rgb(96, 96, 235); 
   }
   
   .web {
@@ -141,6 +141,9 @@
   
   .cloud {
     background-color: #0dc9eb; 
+  }
+  strong{
+    font-size: 2rem;
   }
   
   .power {
