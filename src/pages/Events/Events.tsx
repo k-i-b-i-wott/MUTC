@@ -81,8 +81,8 @@ const Events = () => {
         <h2>MUTC Weekly Activities</h2>
         <p>Empowering Tech Learning, One Workshop at a Time</p>
         <div  className="events-container">
-            {eventDetails.map((event, index) => (                
-            <div key={index} className="events-card">
+            {eventDetails.map((event) => (                
+            <div key={event.name} className="events-card">
                 <div className='title'>
                     <div className="titleIcon">
                          {event.nameIcon}
