@@ -121,7 +121,12 @@
     align-items: center;
     justify-content: center;
     list-style: none;
-    color: var(--color-primary);
+    color: var(--color-black);
+}
+.announcement li{
+    font-size: 2rem;
+    text-align: center;
+    
 }
 
 @media screen and (max-width:56.25em) {

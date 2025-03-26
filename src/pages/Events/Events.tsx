@@ -13,8 +13,7 @@ interface events {
     nameIcon:ReactNode
     name: string
     day: string
-    time: string
-    
+    time: string    
     location: string
     instructor: string
     
@@ -86,7 +85,7 @@ const Events = () => {
             <div key={index} className="events-card">
                 <div className='title'>
                     <div className="titleIcon">
-                          {event.nameIcon}
+                         {event.nameIcon}
                     </div>
                     <div className="titleDesc">
                         <h2> {event.name}</h2>
@@ -103,7 +102,7 @@ const Events = () => {
                 <div className='location'>
                     <p><strong>Location:</strong>{event.location}</p>
                 </div>
-                </div>
+            </div>
                 
                 
             ))}     
