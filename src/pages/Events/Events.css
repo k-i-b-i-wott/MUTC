@@ -123,6 +123,30 @@
     list-style: none;
     color: var(--color-black);
 }
+.cyber {
+    background-color: red;
+  }
+  
+  .UI {
+    background-color:blue; 
+  }
+  
+  .web {
+    background-color: #0dcc3a; 
+  }
+  
+  .mobile {
+    background-color: #e35863; 
+  }
+  
+  .cloud {
+    background-color: #0dc9eb; 
+  }
+  
+  .power {
+    background-color: #d518c9; 
+  }
+  
 .announcement li{
     font-size: 2rem;
     text-align: center;

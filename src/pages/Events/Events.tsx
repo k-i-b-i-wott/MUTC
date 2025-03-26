@@ -16,7 +16,7 @@ interface events {
     time: string    
     location: string
     instructor: string
-    
+    classname: string
     
 }
 
@@ -30,6 +30,8 @@ const Events = () => {
             time: "4:00PM - 7:00PM",
             location: "Computer Lab F04",
             instructor: "Webster Ifedha",
+            classname:"cyber"
+            
             
         },
         {
@@ -38,7 +40,8 @@ const Events = () => {
             day: "Every Tuesday",
             time:"5:00 PM - 8:00 PM",
             location: "Computer Lab F04",
-            instructor: "Manase Gunga"
+            instructor: "Manase Gunga",
+            classname:"UI"
         },
         {
             nameIcon: [<FcGlobe />],
@@ -46,7 +49,8 @@ const Events = () => {
             day: "Every Wednesday",
             time:"6:00 PM - 9:00 PM",
             location: "Computer Lab F04",
-            instructor: "Carolyne Githenduka"
+            instructor: "Carolyne Githenduka",
+            classname: "web"
         },
         {
             nameIcon: [<MdPhoneIphone />],
@@ -54,7 +58,8 @@ const Events = () => {
             day: "Every Thursday",
             time:"4:00 PM - 7:00 PM",
             location: "Computer Lab F04",
-            instructor: "Stanley Amunze"
+            instructor: "Stanley Amunze",
+            classname: "mobile"
 
         },
         {
@@ -63,7 +68,8 @@ const Events = () => {
             day: "Every Friday",
             time:"3:00 PM - 6:00 PM",
             location: "Computer Lab F04",
-            instructor: "Paul Karanja"
+            instructor: "Paul Karanja",
+            classname:"cloud"
 
         },
         {
@@ -72,7 +78,8 @@ const Events = () => {
             day: "Every Saturday",
             time:"1:00 PM - 4:00 PM",
             instructor: "Evyonn Mbithe",
-            location: "Computer Lab F04"
+            location: "Computer Lab F04",
+            classname: "power"
 
         }
     ]
@@ -81,8 +88,9 @@ const Events = () => {
         <h2>MUTC Weekly Activities</h2>
         <p>Empowering Tech Learning, One Workshop at a Time</p>
         <div  className="events-container">
-            {eventDetails.map((event) => (                
-            <div key={event.name} className="events-card">
+            {eventDetails.map((event) => (  
+                           
+            <div key={event.name} className={`events-card ${event.classname}`}>
                 <div className='title'>
                     <div className="titleIcon">
                          {event.nameIcon}
@@ -104,7 +112,7 @@ const Events = () => {
                 </div>
             </div>
                 
-                
+            
             ))}     
             </div>     
           
